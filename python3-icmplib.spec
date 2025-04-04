@@ -1,12 +1,12 @@
 %define		module	icmplib
 Summary:	Modern implementation of the ICMP protocol in Python
 Name:		python3-%{module}
-Version:	3.0.3
+Version:	3.0.4
 Release:	1
 License:	GPL v3+
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/icmplib/%{module}-%{version}.tar.gz
-# Source0-md5:	44389ecd00494114d519296286b51fdf
+# Source0-md5:	7bbbbf2daec86d619bafb23321c190cf
 URL:		https://pypi.org/project/icmplib/
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	rpm-pythonprov
